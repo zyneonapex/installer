@@ -1,1 +1,1 @@
-rootProject.name = "apex-installer"
+rootProject.name = "installer"
