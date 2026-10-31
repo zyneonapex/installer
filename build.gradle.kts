@@ -12,10 +12,11 @@ val apexVendor = "Zyneon Apex"
 
 repositories {
     mavenCentral()
+    maven("https://maven.zyneonstudios.com/snapshots") { name = "zyneonapex-snapshots" }
 }
 
 dependencies {
-    implementation("io.avaje.webview:avaje-webview:0.29")
+    implementation("com.zyneonstudios.apex:jauri-webview:0.30")
 }
 
 application {
